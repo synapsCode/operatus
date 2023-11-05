@@ -1,4 +1,10 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<script>
+	import Header from '../components/Header.svelte';
+</script>
+
+<section class="relative flex justify-center bg-lime-50 md:min-h-[700px]">
+	<Header />
+</section>
 
 <style lang="postcss">
 	:global(html) {
