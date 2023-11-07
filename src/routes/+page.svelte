@@ -1,11 +1,11 @@
 <script>
-	import Header from '../components/Header.svelte';
-	import Solutions from '../components/Solutions.svelte';
-	import Tools from '../components/Tools.svelte';
-	import Surveyors from '../components/Surveyors.svelte';
-	import Operator from '../components/Operator.svelte';
-	import ClienFunctions from '../components/ClienFunctions.svelte';
-	import CallToAction from '../components/CallToAction.svelte';
+	import Header from './Header.svelte'
+	import Solutions from './Solutions.svelte';
+	import Tools from './Tools.svelte';
+	import Surveyors from './Surveyors.svelte';
+	import Operator from './Operator.svelte';
+	import ClienFunctions from './ClienFunctions.svelte';
+	import CallToAction from './CallToAction.svelte';
 </script>
 
 <Header />
