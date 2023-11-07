@@ -38,6 +38,6 @@
 
 <style>
 	#surveyors {
-		background: #efe9f5 url('photo-2.jpg') no-repeat center right;
+		background: #efe9f5 url('/photo-2.jpg') no-repeat center right;
 	}
 </style>

@@ -42,6 +42,6 @@
 		background-color: #efe9f5;
 	}
 	#image {
-		background-image: url('photo-1.jpg');
+		background-image: url('/photo-1.jpg');
 	}
 </style>
