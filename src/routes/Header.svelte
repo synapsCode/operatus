@@ -30,7 +30,7 @@
 
 <style>
 	#header {
-		background-image: url('header-photo.jpg');
+		background-image: url('/header-photo.jpg');
 		background-size: cover;
 	}
 </style>
