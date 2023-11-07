@@ -1,5 +1,5 @@
 <script>
-	import HeaderMenu from './HeaderMenu.svelte';
+	import HeaderMenu from './HeaderMenu.svelte.js';
 </script>
 
 <section class="relative flex justify-center bg-lime-50 md:min-h-[700px] bg-bottom" id="header">
