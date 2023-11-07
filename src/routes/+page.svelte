@@ -1,13 +1,17 @@
 <script>
 	import Header from '../components/Header.svelte';
+	import Solutions from '../components/Solutions.svelte';
+	import Tools from '../components/Tools.svelte';
+	import Surveyors from '../components/Surveyors.svelte';
+	import Operator from '../components/Operator.svelte';
+	import ClienFunctions from '../components/ClienFunctions.svelte';
+	import CallToAction from '../components/CallToAction.svelte';
 </script>
 
-<section class="relative flex justify-center bg-lime-50 md:min-h-[700px]">
-	<Header />
-</section>
-
-<style lang="postcss">
-	:global(html) {
-		background-color: theme(colors.gray.100);
-	}
-</style>
+<Header />
+<Solutions />
+<Tools />
+<Surveyors />
+<Operator />
+<ClienFunctions />
+<CallToAction />
