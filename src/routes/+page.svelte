@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte'
+	import Header from './Header.svelte';
 	import Solutions from './Solutions.svelte';
 	import Tools from './Tools.svelte';
 	import Surveyors from './Surveyors.svelte';
