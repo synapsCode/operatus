@@ -2,6 +2,9 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		fontFamily: {
+			sans: ['Roboto']
+		},
 		extend: {
 			dropShadow: {
 				'3xl': '0 2px 2px rgba(0, 0, 0, 0.25)',
