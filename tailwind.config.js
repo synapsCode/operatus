@@ -5,6 +5,15 @@ export default {
 		fontFamily: {
 			sans: ['Roboto']
 		},
+		fontSize: {
+			sm: ['14px', '20px'],
+			base: ['18px', '32px'],
+			lg: ['20px', '28px'],
+			xl: ['36px', '46px']
+		},
+		letterSpacing: {
+			widest: '.15em'
+		},
 		extend: {
 			dropShadow: {
 				'3xl': '0 2px 2px rgba(0, 0, 0, 0.25)',
