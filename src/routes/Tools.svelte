@@ -34,8 +34,8 @@
 				<figure class="pb-7">
 					<img src="/icon-helmet.png" alt="helmet icon" />
 				</figure>
-				<strong>Client</strong>
-				<ul class="ml-4 pt-4 list-disc">
+				<p>Client</p>
+				<ul class="ml-4 pt-4 list-disc font-light">
 					{#each CLIENT as item}
 						<li class="pb-1">{item}</li>
 					{/each}
@@ -45,8 +45,8 @@
 				<figure class="pb-7">
 					<img src="/icon-monitor.png" alt="monitor icon" />
 				</figure>
-				<strong>Back-office operator</strong>
-				<ul class="ml-4 pt-4 list-disc">
+				<p>Back-office operator</p>
+				<ul class="ml-4 pt-4 list-disc font-light">
 					{#each BACKOFFICE as item}
 						<li>{item}</li>
 					{/each}
@@ -56,8 +56,8 @@
 				<figure class="pb-7">
 					<img src="/icon-people.png" alt="people icon" />
 				</figure>
-				<strong>Surveyors</strong>
-				<ul class="ml-4 pt-4 list-disc">
+				<p>Surveyors</p>
+				<ul class="ml-4 pt-4 list-disc font-light">
 					{#each SURVEYORS as item}
 						<li>{item}</li>
 					{/each}

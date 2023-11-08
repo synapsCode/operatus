@@ -2,7 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	font-size: 18px;
+	line-height: 1.9rem;
+}
 @font-face {
 	font-family: 'Roboto';
 	src: url('fonts/Roboto-Regular.ttf');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Medium.ttf');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Thin.ttf');
+	font-style: italic;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-Light.ttf');
+	font-style: normal;
+	font-weight: 300;
 }
