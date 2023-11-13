@@ -1,6 +1,6 @@
 <script></script>
 
-<div class="relative flex items-center py-8">
+<div class="relative flex items-center p-4 sm:py-8">
 	<div class="logo">
 		<img src="/Logo-BV.svg" alt="Beauro Veritas" />
 	</div>
@@ -9,13 +9,13 @@
 		<ul class="flex space-x-8">
 			<li>
 				<a
-					class="font-thin tracking-widest text-sm tracking-widest uppercase rounded-full flex items-center justify-center w-auto text-white"
+					class="font-thin text-sm tracking-widest uppercase rounded-full flex items-center justify-center w-auto text-white"
 					href="/">Contact</a
 				>
 			</li>
 			<li>
 				<a
-					class="font-thin tracking-widest text-sm tracking-widest uppercase rounded-full flex items-center justify-center w-auto text-white"
+					class="font-thin text-sm tracking-widest uppercase rounded-full flex items-center justify-center w-auto text-white"
 					href="/">ENG</a
 				>
 			</li>

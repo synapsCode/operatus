@@ -4,14 +4,16 @@
 	import Tools from './Tools.svelte';
 	import Surveyors from './Surveyors.svelte';
 	import Operator from './Operator.svelte';
-	import ClienFunctions from './ClienFunctions.svelte';
+	import ClientFunctions from './ClientFunctions.svelte';
 	import CallToAction from './CallToAction.svelte';
 </script>
+
+<!-- TODO: jak przekazać compoenent do componetnut -->
 
 <Header />
 <Solutions />
 <Tools />
 <Surveyors />
 <Operator />
-<ClienFunctions />
+<ClientFunctions />
 <CallToAction />

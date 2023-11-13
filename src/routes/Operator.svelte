@@ -1,11 +1,9 @@
-<section class="relative flex md:min-h-[700px] bg-center flex-col py-24" id="tools">
+<section class="relative md:min-h-[700px] px-5 py-10 lg:p-20" id="operator">
 	<div class="max-w-[1200px] w-full mx-auto flex flex-col">
-		<h2
-			class="inline-block text-4xl text-center pb-24 md:w-2/3 mx-auto tracking-tight text-slate-700"
-		>
+		<h2 class="inline-block text-xl mb-4 lg:mb-20 md:w-2/3 text-slate-700">
 			Selected functions for back office operator
 		</h2>
-		<div class="grid grid-cols-2 gap-10">
+		<div class="grid sm:grid-cols-2 gap-10">
 			<div>
 				<figure class="flex max-w-xl mb-10">
 					<img class="pr-6 self-start" src="/icon-paper-pencil.svg" alt="" />

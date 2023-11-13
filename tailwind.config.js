@@ -12,7 +12,7 @@ export default {
 			xl: ['36px', '46px']
 		},
 		letterSpacing: {
-			widest: '.15em'
+			widest: '.17em'
 		},
 		extend: {
 			dropShadow: {

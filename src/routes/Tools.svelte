@@ -22,14 +22,17 @@
 	];
 </script>
 
-<section class="relative flex md:min-h-[700px] bg-center text-white flex-col py-24" id="tools">
-	<div class="max-w-[1200px] w-full mx-auto flex flex-col">
+<section
+	class="px-5 py-10 lg:p-20 relative flex lg:min-h-[700px] bg-center text-white flex-col"
+	id="tools"
+>
+	<div class="max-w-[1200px] w-full mx-auto flex flex-col sm:py-21">
 		<h2
-			class="inline-block text-4xl text-center pb-20 text-white md:w-2/3 mx-auto tracking-tight dark:text-slate-200"
+			class="inline-block center text-xl tracking-tight mb-4 md:mb-20 text-white md:w-2/3 mx-auto md:text-center"
 		>
 			A comprehensive set of tools is provided for each participant of the process:
 		</h2>
-		<div class="grid grid-cols-3 gap-8">
+		<div class="grid sm:grid-cols-3 gap-8">
 			<div>
 				<figure class="pb-7">
 					<img src="/icon-helmet.png" alt="helmet icon" />
