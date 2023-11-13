@@ -5,8 +5,8 @@
 		</h2>
 		<div class="grid sm:grid-cols-2 gap-10">
 			<div>
-				<figure class="flex max-w-xl mb-10">
-					<img class="pr-6 self-start" src="/icon-paper-pencil.svg" alt="" />
+				<figure class="flex max-w-xl mb-10 mx-4">
+					<img class="w-[43px] h-[43px] mr-6 self-start w" src="/icon-paper-pencil.svg" alt="" />
 					<div>
 						<h5 class="text-lg pb-4">Orders</h5>
 						<p class="text-neutral-500">
@@ -16,8 +16,8 @@
 						</p>
 					</div>
 				</figure>
-				<figure class="flex max-w-xl mb-10">
-					<img class="pr-6 self-start" src="/icon-keys.svg" alt="" />
+				<figure class="flex max-w-xl">
+					<img class="self-start w-[43px] h-[43px] mr-6" src="/icon-keys.svg" alt="" />
 					<div>
 						<h5 class="text-lg pb-4">Authorization</h5>
 						<p class="text-neutral-500">
@@ -28,8 +28,8 @@
 				</figure>
 			</div>
 			<div>
-				<figure class="flex max-w-xl mb-10">
-					<img class="pr-6 self-start" src="/icon-briefcase.svg" alt="" />
+				<figure class="flex max-w-xl mb-10 mx-4">
+					<img class="w-[43px] h-[43px] mr-6 self-start" src="/icon-briefcase.svg" alt="" />
 					<div>
 						<h5 class="text-lg pb-4">Catalogues</h5>
 						<p class="text-neutral-500">
@@ -39,8 +39,8 @@
 						</p>
 					</div>
 				</figure>
-				<figure class="flex max-w-xl mb-10">
-					<img class="pr-6 self-start" src="/icon-envelope.svg" alt="" />
+				<figure class="flex max-w-xl mb-10 mx-4">
+					<img class="w-[43px] h-[43px] mr-6 self-start" src="/icon-envelope.svg" alt="" />
 					<div>
 						<h5 class="text-lg pb-4">Comunication</h5>
 						<p class="text-neutral-500">
@@ -51,5 +51,6 @@
 				</figure>
 			</div>
 		</div>
+		<a href="" class="text-red-700 self-center">See more features</a>
 	</div>
 </section>
