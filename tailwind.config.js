@@ -7,9 +7,10 @@ export default {
 		},
 		fontSize: {
 			sm: ['14px', '20px'],
-			base: ['16px', '32px'],
+			base: ['16px', '25px'],
 			lg: ['18px', '28px'],
-			xl: ['36px', '46px']
+			xl: ['20px', '46px'],
+			'2xl': ['36px', '46px']
 		},
 		letterSpacing: {
 			widest: '.17em'
