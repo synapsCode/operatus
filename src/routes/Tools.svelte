@@ -20,15 +20,13 @@
 		'Dedicated Clients’ portal with all current and archive files',
 		'E-mail and SMS notification at any stage of the proces'
 	];
+	export let id;
 </script>
 
-<section
-	class="px-5 py-10 lg:p-20 relative flex lg:min-h-[700px] bg-center text-white flex-col"
-	id="tools"
->
+<section class="px-5 py-10 lg:p-20 flex lg:min-h-[700px] bg-center text-white flex-col" {id}>
 	<div class="max-w-[1200px] w-full mx-auto flex flex-col sm:py-21">
 		<h2
-			class="inline-block center text-xl tracking-tight mb-4 md:mb-20 text-white md:w-2/3 mx-auto md:text-center"
+			class="inline-block center text-2xl tracking-tight mb-4 md:mb-20 text-white md:w-2/3 mx-auto md:text-center"
 		>
 			A comprehensive set of tools is provided for each participant of the process:
 		</h2>

@@ -4,8 +4,8 @@
 
 <slot />
 
-<footer class=" px-5 py-10 lg:p-20 bg-zinc-900 text-white text-xs relative">
-	<div class="grid sm:grid-cols-3 gap-10 bg-zinc-900 max-w-[1200px] m-auto">
+<footer class="px-5 py-10 lg:p-20 bg-zinc-900 text-white text-xs relative">
+	<div class="grid sm:grid-cols-3 gap-10 max-w-[1280px] m-auto">
 		<div>
 			<p class="pb-8">
 				Operatus Systems Spółkaz Ograniczoną Odpowiedzialnością Leźno 53/I80-298 Gdańsk Polska

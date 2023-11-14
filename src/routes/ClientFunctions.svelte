@@ -1,6 +1,6 @@
 <script>
 	import Card from '../components/Card.svelte';
-
+	export let id;
 	const cardsData = [
 		{
 			title: 'Real-Time Inspection Report',
@@ -20,9 +20,9 @@
 	];
 </script>
 
-<section class="relative flex md:min-h-[700px] sm:py-21 flex-row-reverse" id="surveyors">
-	<div class="hidden sm:block xl:basis-1/3 basis-1/2 bg-right bg-image bg-cover bg-no-repeat" />
-	<div class="sm:p-20 sm:basis-1/2 p-9">
+<section class="flex md:min-h-[700px] flex-row-reverse" {id}>
+	<div class="hidden md:block xl:basis-1/3 basis-1/2 bg-right bg-image bg-cover bg-no-repeat" />
+	<div class="lg:p-20 md:basis-1/2 px-5 py-10">
 		<h2 class="inline-block text-2xl mb-4 md:w-2/3 text-slate-700">
 			Selected functions for client
 		</h2>
@@ -36,7 +36,7 @@
 	.bg-image {
 		background-image: url('/photo-2.jpg');
 	}
-	#surveyors {
+	#Client {
 		background-color: #efe9f5;
 	}
 	@media screen and (min-width: 640px) {

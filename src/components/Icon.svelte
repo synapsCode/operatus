@@ -3,6 +3,6 @@
 	const iconSize = 43;
 </script>
 
-<div>
+<div class="flex justify-center md:justify-start">
 	<img class="self-start" {src} alt="" height={iconSize} />
 </div>

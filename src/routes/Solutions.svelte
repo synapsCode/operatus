@@ -1,13 +1,14 @@
 <script>
 	import Button from '../components/Button.svelte';
+	export let id;
 </script>
 
-<section class="relative flex justify-center lg:min-h-[700px]" id="solution">
+<section class="flex justify-center lg:min-h-[700px]" {id}>
 	<div class="grid sm:grid-cols-2 max-w-[1300px] w-full px-5 py-10 sm:py-21 content-center">
 		<div class="flex justify-ar flex-col justify-around lg:mr-20">
 			<div>
-				<h2 class="inline-block text-xl tracking-tight mb-4 text-slate-700">
-					Comprehensive Solution For Inspection Bodies
+				<h2 class="inline-block text-2xl tracking-tight mb-4 text-slate-700">
+					ClientFunctions Comprehensive Solution For Inspection Bodies
 				</h2>
 				<!-- TODO: ten margin nie pasuje mi za bardzo może coś innego się wymyśli -->
 				<p class="text-neutral-500">

@@ -1,6 +1,6 @@
 <script>
 	import Card from '../components/Card.svelte';
-	import Icon from '../components/Icon.svelte';
+	export let id;
 	const operators = [
 		{
 			title: 'Orders',
@@ -29,9 +29,9 @@
 	];
 </script>
 
-<section class="relative md:min-h-[700px] px-5 py-10 lg:p-20" id="operator">
+<section class="md:min-h-[700px] px-5 py-10 lg:p-20" {id}>
 	<div class="max-w-[1200px] w-full mx-auto flex flex-col">
-		<h2 class="inline-block text-center text-2xl mb-4 lg:mb-20 text-slate-700">
+		<h2 class="inline-block text-center text-2xl mb-10 lg:mb-20 text-slate-700">
 			Selected functions for back office operator
 		</h2>
 		<div class="grid sm:grid-cols-2 gap-10">
@@ -39,7 +39,8 @@
 				<Card {card} />
 			{/each}
 		</div>
-
-		<a href="" class="text-red-700 self-center">See more features</a>
+		<div class="grid place-content-center mt-9">
+			<a href="" class="text-red-700 self-center col-span-5 underline">See more features</a>
+		</div>
 	</div>
 </section>

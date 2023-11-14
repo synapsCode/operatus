@@ -1,4 +1,4 @@
-<section class="relative flex p-9 sm:py-24" id="surveyors">
+<section class="relative flex px-5 py-10 lg:p-20">
 	<div class="max-w-[1200px] w-full mx-auto sm:flex items-center">
 		<div class="basis-1/2">
 			<h2 class="inline-block text-xl pb-10 text-slate-700">Terms of purchase and use</h2>
