@@ -5,7 +5,7 @@
 <slot />
 
 <footer class="px-5 py-20 text-xs bg-dark">
-	<div class="grid sm:grid-cols-3 gap-18 max-w-[1280px] m-auto text-white text-sm">
+	<div class="grid md:grid-cols-3 gap-18 max-w-[1280px] m-auto text-white text-sm">
 		<div class="flex justify-between flex-col">
 			<div>
 				<p><a href="https://www.bureauveritas.pl/kontakt">Kontakt</a></p>
@@ -36,7 +36,7 @@
 			</div>
 			<div><p>Rachunek Bankowy: PL 14 1060 0076 0000 3380 0010 6638</p></div>
 		</div>
-		<div class="text-gray-100 flex justify-between flex-col items-end">
+		<div class="text-gray-100 flex justify-between flex-col md:items-end mt-10">
 			<svg
 				width="144"
 				height="31"
@@ -92,7 +92,7 @@
 					</clipPath>
 				</defs>
 			</svg>
-			<div class="mb-5 text-right">
+			<div class="mb-5 md:text-right">
 				<p>Operatus Systems Spółka z Ograniczoną Odpowiedzialnością</p>
 				<p>Leźno 53/I80-298 Gdańsk Polska</p>
 			</div>
