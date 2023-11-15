@@ -2,11 +2,23 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		colors: {
+			transparent: 'transparent',
+			current: 'currentColor',
+			white: '#ffffff',
+			red: '#DB334A',
+			dark: '#302D38',
+			gray: {
+				100: '#9C9EA1',
+				400: '#787878',
+				500: '#49454f'
+			}
+		},
 		fontFamily: {
 			sans: ['Roboto']
 		},
 		fontSize: {
-			sm: ['14px', '20px'],
+			sm: ['14px', '25px'],
 			base: ['16px', '25px'],
 			lg: ['18px', '28px'],
 			xl: ['20px', '46px'],

@@ -1,0 +1,13 @@
+<script>
+	export let text;
+	export let color;
+	export let center;
+</script>
+
+<h2
+	class="inline-block text-2xl tracking-tight mb-8 md:mb-16 {color
+		? color
+		: 'text-gray-500'} {center ? 'text-center' : ''}"
+>
+	{text}
+</h2>

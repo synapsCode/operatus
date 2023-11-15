@@ -2,7 +2,6 @@
 	export let SectionsId;
 	function scrollIntoView({ target }) {
 		const el = document.querySelector(target.getAttribute('href'));
-		console.log(target.getAttribute('href'));
 		if (!el) return;
 		el.scrollIntoView({
 			behavior: 'smooth'
@@ -14,7 +13,7 @@
 <svelte:window bind:scrollY={y} />
 <div
 	class="flex sm:flex-wrap items-center p-4 sm:py-8 w-full {y > 100
-		? 'fixed top-0 bg-zinc-900'
+		? 'fixed top-0 bg-dark'
 		: 'relative'}"
 >
 	<div class="logo mr-4 md:ml-10 sm:min-w-fit">

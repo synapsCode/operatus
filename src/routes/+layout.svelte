@@ -4,21 +4,39 @@
 
 <slot />
 
-<footer class="px-5 py-10 lg:p-20 bg-zinc-900 text-white text-xs relative">
-	<div class="grid sm:grid-cols-3 gap-10 max-w-[1280px] m-auto">
-		<div>
-			<p class="pb-8">
-				Operatus Systems Spółkaz Ograniczoną Odpowiedzialnością Leźno 53/I80-298 Gdańsk Polska
-			</p>
-			<p>Tel: 601 662 226 mail: pszablowski@operatus.org</p>
+<footer class="px-5 py-20 text-xs bg-dark">
+	<div class="grid sm:grid-cols-3 gap-18 max-w-[1280px] m-auto text-white text-sm">
+		<div class="flex justify-between flex-col">
+			<div>
+				<p><a href="https://www.bureauveritas.pl/kontakt">Kontakt</a></p>
+				<p>
+					Tel: 601 662 226 <br />
+					mail:<a class="underline" href="mailTo:pszablowski@operatus.org"
+						>pszablowski@operatus.org</a
+					>
+				</p>
+				<br />
+				<p>
+					<a class="underline" href="https://www.bureauveritas.pl/polityka-prywatnosci">
+						Polityka prywatności
+					</a>
+				</p>
+				<p>
+					<a class="underline" href="https://www.bureauveritas.pl/polityka-cookies">
+						Polityka cookies
+					</a>
+				</p>
+			</div>
 		</div>
-		<div class="leading-6 text-neutral-400">
-			<p>Numer KRS: 0000361758</p>
-			<p>REGON:221073491</p>
-			<p>NIP: 9581634632</p>
-			<p>Rachunek Bankowy: PL 14 1060 0076 0000 3380 0010 6638</p>
+		<div class="text-gray-100 flex flex-col justify-between b">
+			<div>
+				<p>Numer KRS: 0000361758</p>
+				<p>REGON:221073491</p>
+				<p>NIP: 9581634632</p>
+			</div>
+			<div><p>Rachunek Bankowy: PL 14 1060 0076 0000 3380 0010 6638</p></div>
 		</div>
-		<div class="leading-6 text-neutral-400">
+		<div class="text-gray-100 flex justify-between flex-col items-end">
 			<svg
 				width="144"
 				height="31"
@@ -74,6 +92,10 @@
 					</clipPath>
 				</defs>
 			</svg>
+			<div class="mb-5 text-right">
+				<p>Operatus Systems Spółka z Ograniczoną Odpowiedzialnością</p>
+				<p>Leźno 53/I80-298 Gdańsk Polska</p>
+			</div>
 			<p>2020 @ All rights reserved - Operatus™</p>
 		</div>
 	</div>

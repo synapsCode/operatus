@@ -1,5 +1,6 @@
 <script>
 	import Card from '../components/Card.svelte';
+	import Title from '../components/Title.svelte';
 	export let id;
 	const cards = [
 		{
@@ -29,15 +30,16 @@
 		id=""
 	/>
 	<div class="lg:p-20 md:basis-1/2 px-5 py-10">
-		<h2 class="inline-block text-2xl mb-10 md:mb-20 xl:w-2/3 text-slate-700">
-			Selected functions for Surveyors
-		</h2>
+		<Title text="Selected functions for Surveyors" />
 		{#each cards as card}
 			<Card {card} />
 		{/each}
-		<div class="grid grid-cols-6 mb-10">
-			<a href="" class="text-red-700 self-center col-span-5 col-start-2 underline"
-				>See more features</a
+		<div class="grid grid-cols-6 md:max-w-xl mb-10">
+			<a
+				target="_blank "
+				rel="noreferrer"
+				href="/BV_Operatus_Overview_16.pdf"
+				class="text-red self-center col-span-5 col-start-2 underline">See more features</a
 			>
 		</div>
 	</div>

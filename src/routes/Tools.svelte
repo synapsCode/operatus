@@ -1,4 +1,5 @@
 <script>
+	import Title from '../components/Title.svelte';
 	const CLIENT = [
 		'Technologically advanced solutions',
 		'Uniform standards of work',
@@ -25,11 +26,10 @@
 
 <section class="px-5 py-10 lg:p-20 flex lg:min-h-[700px] bg-center text-white flex-col" {id}>
 	<div class="max-w-[1200px] w-full mx-auto flex flex-col sm:py-21">
-		<h2
-			class="inline-block center text-2xl tracking-tight mb-4 md:mb-20 text-white md:w-2/3 mx-auto md:text-center"
-		>
-			A comprehensive set of tools is provided for each participant of the process:
-		</h2>
+		<Title
+			text="A comprehensive set of tools is provided for each participant of the process"
+			color="text-white"
+		/>
 		<div class="grid sm:grid-cols-3 gap-8">
 			<div>
 				<figure class="pb-7">

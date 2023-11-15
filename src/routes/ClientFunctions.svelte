@@ -1,4 +1,5 @@
 <script>
+	import Title from '../components/Title.svelte';
 	import Card from '../components/Card.svelte';
 	export let id;
 	const cardsData = [
@@ -23,9 +24,7 @@
 <section class="flex md:min-h-[700px] flex-row-reverse" {id}>
 	<div class="hidden md:block xl:basis-1/3 basis-1/2 bg-right bg-image bg-cover bg-no-repeat" />
 	<div class="lg:p-20 md:basis-1/2 px-5 py-10">
-		<h2 class="inline-block text-2xl mb-4 md:w-2/3 text-slate-700">
-			Selected functions for client
-		</h2>
+		<Title text="Selected functions for client" />
 		{#each cardsData as card}
 			<Card {card} />
 		{/each}
