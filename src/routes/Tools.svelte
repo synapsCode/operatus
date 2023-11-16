@@ -29,6 +29,7 @@
 		<Title
 			text="A comprehensive set of tools is provided for each participant of the process"
 			color="text-white"
+			center
 		/>
 		<div class="grid sm:grid-cols-3 gap-8">
 			<div>

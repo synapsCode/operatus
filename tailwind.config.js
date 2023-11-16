@@ -18,7 +18,7 @@ export default {
 			sans: ['Roboto']
 		},
 		fontSize: {
-			sm: ['14px', '25px'],
+			sm: ['14px', '27px'],
 			base: ['16px', '25px'],
 			lg: ['18px', '28px'],
 			xl: ['20px', '46px'],
